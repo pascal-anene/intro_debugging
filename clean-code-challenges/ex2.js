@@ -3,7 +3,7 @@ const solution = require("../solutions/clean-code-challenge/solution2");
 // present all character from the house Gryffindor
 
 const gryffindors = characters.filter((x) => {
-  x.house === "Gryffindor";
+  return x.house === "Gryffindor";
 });
 
 console.log(
