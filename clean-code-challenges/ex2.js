@@ -2,8 +2,8 @@ const characters = require("../data/harry_potter/characters.json");
 const solution = require("../solutions/clean-code-challenge/solution2");
 // present all character from the house Gryffindor
 
-const gryffindors = characters.filter((x) => {
-  return x.house === "Gryffindor";
+const gryffindors = characters.filter((character) => {
+  return character.house === "Gryffindor";
 });
 
 console.log(
